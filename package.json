@@ -1,0 +1,19 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot",
+  "main": "Firstly.js",
+  "scripts": {
+    "start": "node Firstly.js",
+    "start:web": "node Firstly.js",
+    "dev": "nodemon Firstly.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "discord.js": "^14.24.1",
+    "dotenv": "^17.2.3"
+  }
+}
